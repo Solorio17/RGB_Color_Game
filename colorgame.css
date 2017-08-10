@@ -1,0 +1,63 @@
+body{
+  background: black;
+  margin: 0;
+  font-family:"lucida sans unicode"
+}
+
+.square{
+  width: 30%;
+  background: blue;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 80px;
+  transition: background 0.5s;
+}
+
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  background: darkblue;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.stripe{
+  background: lightgray;
+  height: 30px;
+  text-align: center;
+}
+
+.selected{
+  color: white;
+  background: darkblue;
+}
+
+button{
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  color: darkblue;
+  letter-spacing: 2px;
+  font-size: 20px;
+  transition: all 0.5s;
+  outline: none;
+}
+button:hover{
+  color: white;
+  background: darkblue;
+}
+
+.message{
+  display: inline-block;
+  width: 10%;
+  font-family: "lucida sans unicode";
+  font-weight: bold;
+}
